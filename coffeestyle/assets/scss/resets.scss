@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.container{
+    width: 940px;
+    max-width: 90%;
+    margin: auto;
+}
+button{
+    cursor: pointer;
+}
+img{
+    max-width: 100%;
+}

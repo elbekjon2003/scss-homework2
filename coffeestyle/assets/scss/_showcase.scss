@@ -1,0 +1,76 @@
+@import "./variables.scss";
+.showcase{
+    background-color: $siyohrang;
+}
+.showcase-main{
+    padding: 160px 0;
+    background-image: url('../images/IMAGEshowcase\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    color: #fff;
+    p{
+        font-size: 12px;
+        line-height: 18px;
+        &:nth-of-type(1){
+            letter-spacing: 2px;
+        }
+        &:nth-of-type(2){
+            font-size: 17px;
+            line-height: 30px;
+        }
+    }
+    h1{
+        font-size: 47px;
+        line-height: 60px;
+        font-weight: 400;
+        margin: 10px 0;
+        @media(max-width:400px){
+            font-size: 40px;
+            line-height: 50px;
+        }
+    }
+    button{
+        padding: 8px 24px;
+        margin-top: 40px;
+    }
+}
+.intro{
+    padding: 120px 0 100px;
+    text-align: center;
+    h1{
+        font-size: 28px;
+        line-height: 40px;
+        font-weight: 400;
+        width: 580px;
+        margin: auto;
+        color: $dark;
+        @media(max-width:730px){
+            width: auto;
+        }
+    }
+    p{
+        font-size: 16px;
+        line-height: 28px;
+        color: $lightblack;
+        width: 660px;
+        margin: auto;
+        margin-top: 16px;
+        margin-bottom: 20px;
+        @media(max-width:730px){
+            width: auto;
+        }
+    }
+    a{
+        font-size: 15px;
+        line-height: 28px;
+        color: $brown;
+        padding: 4px 6px;
+        border-bottom: 1px solid $brown;
+        &:hover{
+            color: $siyohrang;
+            border-bottom: 1px solid $siyohrang;
+        }
+    }
+}
